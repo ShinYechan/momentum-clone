@@ -8,6 +8,7 @@
     <title>Momentum</title>
   </head>
   <body>
+    <h2 id="clock">00:00</h2>
     <form class="login-form hidden">
       <input
         required
@@ -18,9 +19,12 @@
       />
       <button>Log In</button>
     </form>
-    <h2 id="clock">00:00</h2>
     <div class="welcome hidden"></div>
     <button class="logout hidden">로그아웃</button>
+    <form class="todo-form">
+      <input type="text" placeholder="Write a To Do and Press" required />
+    </form>
+    <ul class="todo-list"></ul>
     <div id="quote">
       <span></span>
       <span></span>
@@ -29,5 +33,6 @@
     <script src="js/clock.js"></script>
     <script src="js/quote.js"></script>
     <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
   </body>
 </html>
